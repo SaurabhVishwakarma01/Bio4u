@@ -1,0 +1,418 @@
+
+
+#maincentre{
+    background-color: white;
+  
+  }
+
+#slidesr{
+  background-color: #E5F9EF;
+ 
+}
+
+#slides{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+/*videos*/
+
+.maindiv{
+    overflow: hidden;
+    margin-top: -25px;
+  }
+  
+  
+  
+  .main-video{
+    /* margin-top: 1vh; */
+     width: 100%;
+     z-index: -999;
+    
+     
+  }
+  
+  
+  
+  @media  screen and (min-width:1024px) {
+      .container{
+   padding: 50px;
+    background-color: whitesmoke;
+    transition: transform .2s; 
+    overflow: hidden;
+    
+    
+    
+  
+          
+         
+         
+  
+      }
+  
+      .main-video:hover{
+          transition: 0.3s ease-in;
+  
+          transform: scale(0.97); 
+          border-radius: 15px;
+        
+      }
+      .main-video:hover::after{
+          transition: 0.3s ease-in-out;
+  
+      }
+  
+      
+      .container:hover::after{
+          transition: 0.3s ease-out;
+      }
+      
+  
+  }
+
+/*slogan*/
+
+.slogan{
+    margin-left: 15vw;
+    margin-top: 8vh;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: gilroy-heavyitalic;
+  }
+  
+  .dream{
+    color: #06489F;
+    margin-right: 3vw;
+    font-family: gilroy-heavyitalic;
+    
+  }
+  
+  .dream:hover{
+    color: #00BF60;
+    cursor: pointer;
+  }
+  
+  .guide{
+    color: #00BF60;
+    font-family: gilroy-heavyitalic;
+  }
+  .guide:hover{
+    color: #06489F;
+    cursor: pointer;
+  
+  }
+  /*vision*/
+  
+  .vision1{
+    padding-left: 19vw;
+    font-size: 1.6rem;
+    font-family: gilroy-bold;
+  
+  
+  }
+  
+  .vision2{
+    padding-left: 23vw;
+    font-size: 1.6rem;
+    font-family: gilroy-bold;
+  }
+  
+  .ordinary{
+    text-decoration: line-through;
+      color: red;
+      text-decoration-color: black;
+      padding-left: 5px;
+      font-family: gilroy-bold;
+  
+  }
+  
+  .vision3{
+    font-size: 1.6rem;
+    padding-left: 44vw;
+    font-family: gilroy-bold;
+  }
+  
+  .mainvision{
+    
+    margin-top: 6vh;
+  }
+  
+  .bio4u{
+    color: #06489F;
+    font-family: gilroy-bold;
+  }
+  
+  .bio4u:hover{
+    cursor: pointer;
+    color: #00BF60;
+   
+   
+  
+  }
+  
+  
+  
+  
+  @media (max-width: 1024px) {
+    .slogan{
+      margin-left: 10vw;
+      margin-top: 10vh;
+      font-size: 2.39rem;
+      font-weight: 500;
+      
+    }
+    
+    .dream{
+      color: #06489F;
+      margin-right: 3vw;
+      
+    }
+    
+    .guide{
+      color: #00BF60;
+    }
+  
+    .vision1{
+      
+  
+      font-size: 13px;
+      padding-left: 12vw;
+      padding-right: 10vw;
+      font-family: gilroy-extrabold;
+    
+    
+    }
+    
+    .vision2{
+   
+      font-size: 13px;
+      padding-left: 12vw;
+      padding-right: 7vw;
+      font-family: gilroy-extrabold;
+     
+    }
+    
+    .vision3{
+      font-size: 13px;
+      padding-left: 12vw;
+      margin-top: 2px;
+      font-family: gilroy-extrabold;
+      
+
+      
+
+   
+   
+    }
+  
+    .ordinary{
+      text-decoration: line-through;
+      color: red;
+      text-decoration-color: black;
+      font-size: 20px;
+    }
+  
+   
+    
+    .mainvision{
+      /* font-weight: bold; */
+      margin-top: 20vh;
+     
+      
+    }
+    
+    .bio4u{
+      color: #06489F;
+    }
+    
+    .bio4u:hover{
+      cursor: pointer;
+      color: #00BF60;
+     
+     
+    
+    }
+  
+    
+   
+  }
+  
+  /* Medium Screens (Optional) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+       .mainvision{
+        margin-top: 0vh;
+        
+       }
+
+       
+
+
+    
+    /* Add your adjustments for medium screens here */
+  }
+  
+  /* Large Screens (Optional) *
+  /
+  
+  
+  
+  
+  
+  /* @media (max-height: 375px) {
+   
+    .mainvision{
+      margin-top: 10vh;
+    }
+  } */
+  
+  
+  
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    
+    
+  }
+
+  /*tailwind slider*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body {
+    /* background-color: #14161b; */
+    background-color: whitesmoke;
+  }
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+  margin-bottom: 10px;
+
+}
+
+.slick-dots li.slick-active button:before {
+  color:rgb(13, 255, 0) !important;
+  
+}
+
+
+
+
+button {
+  color: black;
+}
+
+@media screen and (max-width:915px){
+  #mainslide{
+    height: 600px;
+
+
+  }
+  
+}
+
+@media screen and (max-width:768px){
+  #mainslide{
+    height: 600px;
+
+
+  }
+  
+}
+
+@media screen and (min-width:1024px){
+  #mainslide{
+    padding-bottom: 50px;
+   
+
+
+  }
+  
+}
+
+#slides:hover{
+  transform: scale(0.97);
+  opacity: 0.9;
+  transition: 0.3s ease-in-out;
+}
+
+
+.bgbody{
+  background-image: url("../public/assets/background.jpeg");
+ z-index: -999;
+}
+
+/*gilroy*/
+
+
+@font-face{
+  font-family: gilroy-heavyitalic;
+  src: url(../public/Gilroy-HeavyItalic.ttf);
+}
+
+@font-face{
+  font-family: gilroy-bold;
+
+  src: url(../public/Gilroy-Bold.ttf);
+
+}
+
+@font-face{
+  font-family: gilroy-semibold;
+
+  src: url(../public/Gilroy-SemiBold.ttf);
+
+}
+
+#toppername{
+  font-family: gilroy-bold;
+  font-weight: 600;
+  /* font-weight: bold; */
+}
+
+#topperreview{
+  font-family: gilroy-semibold;
+  font-weight: 500;
+
+}
+
+/* .mainvision{
+  font-family: gilroy-bold;
+ 
+
+} */
+
+@media (min-width:768px) and (max-width:1300px){
+  
+  .mainvision{
+    margin-left: 7vw;
+    margin-top: 5vh;
+    
+  }
+
+  .vision1{
+    font-size: 2rem;
+  }
+
+  .vision2{
+    font-size: 2rem;
+  }
+
+  .vision3{
+    font-size: 2rem;
+  }
+
+  .ordinary{
+    font-size: 2.6rem;
+  }
+
+  .bio4u{
+    font-size: 2.6rem;
+  }
+
+
+
+}

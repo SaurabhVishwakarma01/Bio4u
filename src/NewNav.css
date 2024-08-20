@@ -1,0 +1,55 @@
+#navdivmain{
+    z-index: 999;
+
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+#mmenu{
+    
+    /* box-shadow: 0 20px 20px 10px rgba(0, 0, 0, 0.435); */
+    border-radius: 10px;
+
+
+}
+
+/* #navbarcontent:hover{
+    color: #acf5d2;
+
+} */
+
+/* #mmenu:hover{
+    transform: scale(1.1);
+
+
+    
+    
+} */
+
+
+
+
+.nav-logo{
+    width: 120px;
+}
+
+@font-face{
+    font-family: gilroy-bold;
+    src: url(../public/Gilroy-Bold.ttf);
+  }
+
+#navbarcontent{
+    font-family: gilroy-bold;
+}
+
+#linkcontact{
+    font-family: gilroy-bold;
+
+}
+
+
+
+
+

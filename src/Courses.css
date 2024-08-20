@@ -1,0 +1,270 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+
+
+.cardimg{
+    width: 100px;
+    height: 100px;
+}
+
+.maincourse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+
+.coursediv{
+    padding-right: 15vw;
+    font-size: 5vw;
+
+}
+
+.coursecard1{
+    margin-right: 5vw;
+    
+}
+
+.subcard1{
+    margin-bottom: 5vh;
+}
+
+.subcard3{
+    margin-bottom: 5vh;
+}
+
+.modalbox{
+    border-radius: 10px;
+    white-space: initial;
+}
+
+.coursebtn4{
+    background-color: #001631;
+    border-radius: 100px;
+    margin-left: -12px;
+    margin-top: 6px;
+  
+    
+}
+
+.colorbtn4{
+    font-size: 16px;
+    color: white;
+    padding: 3px;
+    font-family: gilroy-bold;
+}
+
+
+
+@media screen and (min-width:1024px){
+    .coursecard2{
+    margin-top: -0.08vw;
+}
+
+.learnmore{
+    margin-bottom: 100px;
+}
+
+}
+
+@media screen and (max-width:768px){
+    
+
+    .coursediv{
+        margin-left: 12vw;
+        margin-bottom: 3vh;
+        font-size: 2.4rem;
+  }
+
+    .maincourse{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vh;
+        
+    }
+
+    .coursecard1{
+        margin-left: 17px;
+    }
+
+    .coursecard2{
+        margin-top: 5vh;
+
+
+    }
+
+    .modalbox{
+       
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 25px;
+    }
+    
+
+    
+}
+@media (min-width:768px) and (max-width:819px){
+
+    .coursecard2{
+        margin-top: 5vh;
+        margin-right: 2vh;
+
+
+    }
+
+
+
+
+}
+
+@media (min-width:820px) and (max-width:1023px){
+    .maincourse{
+        display: flex;
+        flex-direction: column;
+        margin-left: 7vw;
+    }
+.coursecard1{
+    display: flex;
+    
+    
+    
+}
+
+.coursecard2{
+    display: flex;
+    margin-right: 5.3vw;
+}
+
+.subcard1{
+    margin-right: 5vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcard3{
+    margin-right: 5vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.subcard2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subcard4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+#learnmore{
+    margin-bottom: 36px;
+}
+
+.card4sub{
+    font-size: 14.3px;
+}
+
+.coursediv{
+    margin-left: 10vw;
+    margin-bottom: 3vh ;
+}
+
+
+
+}
+
+
+@font-face{
+    font-family: gilroy-bold;
+    src: url(../public/Gilroy-Bold.ttf);
+  }
+
+  @font-face{
+    font-family: gilroy-medium;
+    src: url(../public/Gilroy-Medium.ttf);
+  }
+
+#card1head{
+    font-family: gilroy-bold;
+}
+
+#card1truncate{
+    font-family: gilroy-medium;
+    font-weight: 600;
+}
+
+#learnmore{
+    font-family: gilroy-bold;
+
+}
+
+#modal-modal-title{
+    font-family: gilroy-bold;
+    
+
+}
+
+#modal-modal-description{
+    font-family: gilroy-medium;
+    font-weight: 600;
+}
+
+.card4sub{
+    font-family: gilroy-bold;
+}
+
+#card2truncate{
+    font-family: gilroy-medium;
+    font-weight: 600;
+}
+
+
+#card3head{
+    font-family: gilroy-bold;
+}
+
+#card3truncate{
+    font-family: gilroy-medium;
+    font-weight: 600;
+}
+
+#card5sub{
+    font-family: gilroy-bold;
+    
+}
+
+#card4truncate{
+    font-family: gilroy-medium;
+    font-weight: 600;
+}
+@font-face{
+    font-family: gilroy-semibolditalic;
+    src: url(../public/Gilroy-SemiBoldItalic.ttf);
+  }
+.coursediv{
+    font-family: gilroy-extrabold;
+}
+
+
+
